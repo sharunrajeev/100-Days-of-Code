@@ -1,5 +1,7 @@
 .pdf
+*.xml
 __pycache__
 *.drawio
-
+*.iml
 Resources
+.idea
