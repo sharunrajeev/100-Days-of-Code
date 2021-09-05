@@ -1,0 +1,19 @@
+Step 1
+------
+Create a turtle which starts from the bottom of the screen to the top. It's positioned at the middle.
+Turtle should move up and down on keypress.
+
+Step 2
+------
+Create car using two square turtles. Let it move from right end to left end.
+Create multiple cars with similar features but different colours.
+Randomly generate positions in the y-axis so each car could move at different positions.
+
+Step 3
+------
+When turtle reaches the top of the screen, it levels up by where the car movement increases.
+Also show the level in the top left corner.
+
+Steps 4
+-------
+If the turtle collides with any of the cars, the game stops and shows game over.
