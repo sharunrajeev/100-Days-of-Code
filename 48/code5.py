@@ -35,7 +35,7 @@ while True:
                 cookie_upgrades[ids] = driver.find_element(By.CSS_SELECTOR, f"#{ids} b").text.split(' ')[2].replace(",", "")
 
         # get number of cookies
-        cookie_count = driver.find_element(By.CSS_SELECTOR, '#money').text
+        cookie_count = driver.find_element(By.CSS_SELECTOR, '#money').text.replace(",", "")
 
         # get affordable item
         affordable_item = {}
